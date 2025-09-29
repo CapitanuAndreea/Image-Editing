@@ -1,8 +1,9 @@
 # Mobile Application for Intelligent Image Editing and Search
  
-**a cross-platform mobile application for editing and intelligently managing images using AI and computer vision techniques**.  
+**A cross-platform mobile application for editing and intelligently managing images using AI and computer vision techniques**.  
 
-The project combines classical image editing tools with modern **AI-powered features** such as object detection, face recognition, and background removal.  
+The project combines classical image editing tools with modern **AI-powered features** such as object detection, face recognition, and background removal.
+
 A key focus is that **all AI processing runs locally**, ensuring low latency and full data privacy.
 
 ---
@@ -68,5 +69,3 @@ Every image upload triggers a chain of preprocessing tasks designed for **fast s
    During editing, a **temporary version** of the image is maintained in `/media/edited/`. Filters are applied incrementally to this version, preserving the original file. The user can then either revert, overwrite, or save a copy. This reduces storage overhead and ensures a consistent workflow.
 
 This pipeline ensures that by the time the user opens the gallery, all images are already **tagged, searchable, and clustered**, without manual effort.
-
----
